@@ -1,0 +1,12 @@
+body .theme-button span,.theme-footer .bottom-footer .social-icon li a,#theme-main-banner.banner-two .camera_caption .container a {
+  background-image: -moz-linear-gradient( 0deg, rgb(252,159,39) 0%, rgb(206,209,243) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(252,159,39) 0%, rgb(206,209,243) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(252,159,39) 0%, rgb(206,209,243) 100%);
+}
+.apps-overview .main-bg-wrapper .text i,.theme-footer .bottom-footer .footer-menu li a:hover {
+	color: #5d67dc;
+}
+.scroll-top,.client-section .video-content .opacity .text a {background:#5d67dc; }
+.theme-main-header .navbar-nav .button-group a {border: 2px solid #7982ec;}
+.theme-main-header.fixed {background: #646ee2;}
+.customers-need .text-wrapper ul li:before {content: url(../images/home/shape-18.png);}

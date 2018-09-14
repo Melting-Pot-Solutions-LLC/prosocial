@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<!-- For IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- For Resposive Device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Poltu - App Landing Page</title>
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="67x67" href="images/fav-icon/icon.png">
+
+
+		<!-- Main style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- responsive style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<!-- Color Css -->
+		<link rel="stylesheet" type="text/css" href="css/color-one.css">
+
+
+		<!-- Fix Internet Explorer ______________________________________-->
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="vendor/html5shiv.js"></script>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->
+			
+	</head>
+
+	<body>
+		<div class="main-page-wrapper home-page-one">
+
+			<!-- ===================================================
+				Loading Transition
+			==================================================== -->
+			<div id="loader-wrapper">
+				<div id="loader"></div>
+			</div>
+
+
+
+			<div class="html-top-content">
+				<!-- 
+				=============================================
+					Theme Header
+				============================================== 
+				-->
+				<header class="theme-main-header">
+					<div class="container">
+						<div class="menu-wrapper clearfix">
+							<div class="logo float-left"><a href="index.html"><img src="images/logo/logo.png" alt="Logo"></a></div>
+							<!-- ========================= Theme Feature Page Menu ======================= -->
+							<nav class="navbar theme-main-menu float-right">
+							   <!-- Brand and toggle get grouped for better mobile display -->
+							   <div class="navbar-header">
+							     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+							       <span class="sr-only">Toggle navigation</span>
+							       <i class="fa fa-bars" aria-hidden="true"></i>
+							     </button>
+							   </div>
+							   <!-- Collect the nav links, forms, and other content for toggling -->
+							   <div class="collapse navbar-collapse" id="navbar-collapse-1">
+							     <ul class="nav navbar-nav">
+							     	<li><a href="index.html#theme-main-banner">Home</a></li>
+							       	<li class="active"><a href="index.html#features">Features</a></li>
+									<li><a href="index.html#screenshot">Screen</a></li>
+									<li><a href="index.html#pricing">Pricing</a></li>
+									<li><a href="contact.html">Contact</a></li>
+									<li class="button-group"><a href="#">Sign in</a></li>
+									<li class="button-group"><a href="#" class="signup">sign up</a></li>
+							     </ul>
+							   </div><!-- /.navbar-collapse -->
+							</nav> <!-- /.theme-feature-menu -->
+						</div> <!-- /.menu-wrapper -->
+					</div> <!-- /.container -->
+				</header> <!-- /.theme-main-header -->
+
+
+				<!--
+				=====================================================
+					Theme Inner Banner
+				=====================================================
+				-->
+				<div class="theme-inner-banner">
+					<div class="opacity">
+						<div class="container">
+							<h2 class="title">Contact us</h2>
+							<p>Talk to us about your question Send message</p>
+						</div> <!-- /.container -->
+					</div> <!-- /.opacity -->
+				</div> <!-- /.theme-inner-banner -->
+
+
+				
+				<!--
+				=====================================================
+					Contact Banner
+				=====================================================
+				-->
+				<div class="section-spacing contact-banner">
+					<div class="container"><h2 class="title">Talk to us about your question Send message</h2></div>
+
+					<div class="main-bg">
+						<div class="opacity">
+							<img src="images/home/shape-38.png" alt="" class="shape wow fadeInLeft animated" data-wow-delay=".75s">
+							<div class="container">
+								<p>Got a question about what I can do for you, We’re always interested in new projects, big or small. Send us an email and we’ll get in touch shortly, or phone between 8:00 am and  7:00 pm Monday to Saturday.</p>
+							</div>
+						</div>
+					</div>
+				</div> <!-- /.contact-banner -->
+
+
+
+				<!--
+				=====================================================
+					Conatct Us
+				=====================================================
+				-->
+				<div class="contact-us-section clearfix" id="contact">
+					<div class="section-half"><div class="google-map"><div class="map-canvas"></div></div></div>
+					<div class="section-half clearfix">
+						<div class="main-form-wrapper">
+							<form action="inc/sendemail.php" class="contact-us-form form-validation">
+								<input type="text" placeholder="Your Name" name="name">
+								<input type="email" placeholder="Email Address" name="email">
+								<input type="text" placeholder="Subject" name="sub">
+								<textarea placeholder="Your Messages" name="message"></textarea>
+								<div class="theme-button">
+									<span></span>
+									<input type="submit" value="Send Request">
+								</div>
+							</form>
+						</div> <!-- /.main-form-wrapper -->
+					</div>
+
+					<!--Contact Form Validation Markup -->
+					<!-- Contact alert -->
+					<div class="alert-wrapper" id="alert-success">
+						<div id="success">
+							<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+							<div class="wrapper">
+				               	<p>Your message was sent successfully.</p>
+				             </div>
+				        </div>
+				    </div> <!-- End of .alert-wrapper -->
+				    <div class="alert-wrapper" id="alert-error">
+				        <div id="error">
+				           	<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+				           	<div class="wrapper">
+				               	<p>Sorry!Something Went Wrong.</p>
+				            </div>
+				        </div>
+				    </div> <!-- End of .alert-wrapper -->
+				</div> <!-- /.contact-us-section -->
+
+
+
+				<!--
+				=====================================================
+					Footer 
+				=====================================================
+				-->
+				<footer class="theme-footer">
+					<img src="images/home/shape-15.png" alt="" class="shape-one">
+					<div class="container">
+						<div class="footer-data-wrapper">
+							<form action="#" class="subscribe-form">
+								<h2>Subscirbe  Our Newslatter!!</h2>
+								<div class="input-wrapper">
+									<div class="row">
+										<div class="col-md-5 col-sm-6 col-xs-12">
+											<input type="text" placeholder="Name">
+										</div>
+										<div class="col-md-5 col-sm-6 col-xs-12">
+											<input type="email" placeholder="Email">
+										</div>
+										<div class="col-md-2 col-xs-12">
+											<button class="theme-button"><span></span> Send</button>
+										</div>
+									</div>
+								</div>
+							</form>
+							<div class="bottom-footer">
+								<ul class="footer-menu">
+									<li><a href="index.html" class="tran3s">Home</a></li>
+									<li><a href="blog-list.html" class="tran3s">Blog</a></li>
+									<li><a href="#" class="tran3s">About</a></li>
+									<li><a href="contact.html" class="tran3s">Contact</a></li>
+								</ul>
+								<ul class="social-icon">
+									<li><a href="#" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="tran3s"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+								</ul>
+								<p>&copy; 2018 Template_mr  All rights reserved</p>
+							</div> <!-- /.bottom-footer -->
+						</div>
+					</div> <!-- /.container -->
+				</footer>
+
+			</div> <!-- /.html-top-content -->
+
+
+			
+	        <!-- Scroll Top Button -->
+			<button class="scroll-top tran3s color-one-bg">
+				<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+			</button>
+
+
+
+
+		<!-- Js File_________________________________ -->
+
+		<!-- j Query -->
+		<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
+
+		<!-- Vendor js _________ -->
+		<!-- Camera Slider -->
+		<script type='text/javascript' src='vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
+	    <script type='text/javascript' src='vendor/Camera-master/scripts/jquery.easing.1.3.js'></script> 
+	    <script type='text/javascript' src='vendor/Camera-master/scripts/camera.min.js'></script>
+	    <!-- WOW js -->
+		<script type="text/javascript" src="vendor/WOW-master/dist/wow.min.js"></script>
+		<!-- Fancybox -->
+		<script type="text/javascript" src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+		<!-- Validation -->
+		<script src="vendor/contact-form/validate.js"></script>
+		<script src="vendor/contact-form/jquery.form.js"></script>
+		<!-- Google map js -->
+		<script src="https://maps.googleapis.com/maps/api/js?v=3"></script>
+		<script src="vendor/sanzzy-map/dist/snazzy-info-window.min.js"></script>
+
+		<!-- owl.carousel -->
+		<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
+		<!-- Multi carousel -->
+		<script type="text/javascript" src="vendor/multislider/multislider.min.js"></script>
+
+		<!-- Theme js -->
+		<script type="text/javascript" src="js/theme.js"></script>
+		<script src="js/map-script.js"></script>
+
+		</div> <!-- /.main-page-wrapper -->
+	</body>
+</html>

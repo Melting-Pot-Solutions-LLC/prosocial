@@ -1,0 +1,14 @@
+body .theme-button span,.theme-footer .bottom-footer .social-icon li a,.theme-sidebar .sidebar-icon li a {
+	background-image: -moz-linear-gradient( 0deg, rgb(100,221,184) 0%, rgb(206,209,243) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(100,221,184) 0%, rgb(206,209,243) 100%);
+	background-image: -ms-linear-gradient( 0deg, rgb(100,221,184) 0%, rgb(206,209,243) 100%);
+}
+.apps-overview .main-bg-wrapper .text i,.theme-footer .bottom-footer .footer-menu li a:hover,.single-blog-list:hover .text .title a,
+.single-blog-list .social-share li a:hover,.blog-details .single-blog-list .post-meta-data .sub-heading {
+	color: #60f6c1;
+}
+.scroll-top,.client-section .video-content .opacity .text a,.theme-pagination ul li a:hover,
+.theme-pagination ul li.active a {background:#60f6c1; }
+.theme-main-header .navbar-nav .button-group a {border: 2px solid #5fd4cb;}
+.theme-main-header.fixed {background: #50c3c8;}
+.customers-need .text-wrapper ul li:before {content: url(../images/home/shape-4.png);}

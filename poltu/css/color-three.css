@@ -1,0 +1,13 @@
+body .theme-button span,.theme-footer .bottom-footer .social-icon li a,#theme-main-banner.banner-two .camera_caption .container a {
+	  background-image: -moz-linear-gradient( 0deg, rgb(0,0,0) 0%, rgb(251,154,27) 0%, rgb(206,209,243) 100%);
+	  background-image: -webkit-linear-gradient( 0deg, rgb(0,0,0) 0%, rgb(251,154,27) 0%, rgb(206,209,243) 100%);
+	  background-image: -ms-linear-gradient( 0deg, rgb(0,0,0) 0%, rgb(251,154,27) 0%, rgb(206,209,243) 100%);
+}
+.apps-overview .main-bg-wrapper .text i,.theme-footer .bottom-footer .footer-menu li a:hover {
+	color: #fc9d1d;
+}
+.scroll-top,.client-section .video-content .opacity .text a {background:#fc9d1d; }
+.theme-main-header .navbar-nav .button-group a {border: 2px solid #fca737;}
+.theme-main-header.fixed {background: #f5971d;}
+.customers-need .text-wrapper ul li:before {content: url(../images/home/shape-32.png);}
+
